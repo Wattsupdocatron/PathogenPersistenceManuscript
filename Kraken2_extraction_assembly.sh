@@ -17,4 +17,3 @@ python extract_kraken_reads.py -k DC1_kraken2.out -s1 DC1_metaT_processed_1.fq.g
 #assemble enterobacteriaceae reads into contigs for sample DC1
 spades.py --meta -1 enterobacteriaceae-DC1_R1.fastq -2 enterobacteriaceae-DC1_R2.fastq  -o EC-DC1-assembly 
 
-#repeat for all samples
