@@ -1,8 +1,4 @@
 #!/bin/bash
-#make .SAF file for each genome for featureCounts input
-awk '$3 == "CDS" { split($9,a,";"); print a[1] "\t" $1 "\t" $4 "\t" $5 "\t" $7 }' Ec19.gff \
-    | sed 's/ID=//g' \
-    > Ec19.saf
 
 ##Run featureCounts on all metranscriptome mapped genomes##
 # List of genome names
