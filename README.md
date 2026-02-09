@@ -1,5 +1,5 @@
 # PathogenPersistenceManuscript
-- Analysis scripts for metagenomics/metatranscriptomics for pathogen persistence in freshwater manuscript (Nunez and Watts et al., 2026, BioRxiv). 
+- Analysis scripts for metagenomics/metatranscriptomics for pathogen persistence in freshwater manuscript (Nunez and Watts et al., 2026, BioRxiv - Paired in situ and molecular analyses identify mechanisms of pathogen persistence within environmental communities). 
 
 - Where specified, each file set was analysed individually rather than with loops - the code that is reported in each script is a representative for a single metagenomics/metatranscriptomics sample. The input/ouput file names can be changed depending on the sample being analysed. 
 
