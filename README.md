@@ -5,5 +5,4 @@
 
 - For metatranscriptomics, start with kraken2-filter script, continue to subread-align script for each group, then finish with featureCounts script.
 
-- bbduk read trimming and diamond blastx scripts used in this manuscript were previously published here: Lappan, R., Shelley, G., Islam, Z.F. et al. Molecular hydrogen in seawater supports growth of diverse marine bacteria. Nat Microbiol 8, 581–595 (2023). https://doi.org/10.1038/s41564-023-01322-0 
-- see github: : https://github.com/GreeningLab/MarineOxidationManuscript/tree/main
+- bbduk read trimming and diamond blastx scripts used in this manuscript were previously published here: Lappan, R., Shelley, G., Islam, Z.F. et al. Molecular hydrogen in seawater supports growth of diverse marine bacteria. Nat Microbiol 8, 581–595 (2023). https://doi.org/10.1038/s41564-023-01322-0 ... see github: : https://github.com/GreeningLab/MarineOxidationManuscript/tree/main
