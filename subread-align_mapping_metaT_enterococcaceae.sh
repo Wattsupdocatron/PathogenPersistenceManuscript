@@ -15,7 +15,7 @@ for genome in "${genomes[@]}"; do
     echo "Indexing complete for $genome"
 
     # Align using subread-align
-    subread-align -t 1 -T 10 -d 50 -D 600 --multiMapping -B 1 -i "${genome}-index" -r "DC1_processed_R1.fq.gz" -R "DC1_processed_R2.fq.gz" -o "${genome}-DC1.bam"
+    subread-align -t 1 -T 10 -d 50 -D 600 -i "${genome}-index" -r "DC1_processed_R1.fq.gz" -R "DC1_processed_R2.fq.gz" -o "${genome}-DC1.bam"
     echo "Alignment complete for $genome"
 
     # Sort BAM file
